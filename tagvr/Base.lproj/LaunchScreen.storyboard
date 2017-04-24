@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,20 +21,25 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bju-dO-lJs">
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VRStudio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRY-y9-ITK">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Magnify-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Z3P-oB-3zx">
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="RdX-Vf-fSq"/>
-                                            <constraint firstAttribute="height" constant="50" id="m3w-GB-kKA"/>
+                                            <constraint firstAttribute="height" constant="250" id="2tM-uR-04z"/>
+                                            <constraint firstAttribute="width" secondItem="Z3P-oB-3zx" secondAttribute="height" multiplier="1:1" id="mE5-N9-OIJ"/>
+                                            <constraint firstAttribute="width" constant="250" id="qsC-GG-Cu4"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="28"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 21" translatesAutoresizingMaskIntoConstraints="NO" id="Eje-WB-ae7">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ayQ-w8-Emq"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92156862750000001" green="0.33333333329999998" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="ZRY-y9-ITK" firstAttribute="centerX" secondItem="Bju-dO-lJs" secondAttribute="centerX" id="1jk-gy-HmV"/>
-                                    <constraint firstItem="ZRY-y9-ITK" firstAttribute="centerY" secondItem="Bju-dO-lJs" secondAttribute="centerY" id="j3G-fr-mg4"/>
+                                    <constraint firstItem="Z3P-oB-3zx" firstAttribute="centerX" secondItem="Bju-dO-lJs" secondAttribute="centerX" id="boa-Cd-bcC"/>
+                                    <constraint firstItem="Eje-WB-ae7" firstAttribute="top" secondItem="Z3P-oB-3zx" secondAttribute="bottom" constant="10" id="epS-Q5-ogn"/>
+                                    <constraint firstItem="Eje-WB-ae7" firstAttribute="centerX" secondItem="Bju-dO-lJs" secondAttribute="centerX" id="f7Y-GE-k4h"/>
+                                    <constraint firstItem="Z3P-oB-3zx" firstAttribute="top" secondItem="Bju-dO-lJs" secondAttribute="top" constant="180" id="xwL-5N-Pyb"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -51,4 +57,8 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Group 21" width="184" height="30"/>
+        <image name="Magnify-logo" width="745" height="645"/>
+    </resources>
 </document>
