@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2549B79C1DAC5AA10033762C /* ContactPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549B79B1DAC5AA10033762C /* ContactPageController.swift */; };
+		2549B79E1DAC5F800033762C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549B79D1DAC5F800033762C /* MessageUI.framework */; };
+		525718A81D6A73EA007D744C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718A71D6A73EA007D744C /* AppDelegate.swift */; };
+		525718AA1D6A73EA007D744C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718A91D6A73EA007D744C /* ViewController.swift */; };
+		525718AD1D6A73EA007D744C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525718AB1D6A73EA007D744C /* Main.storyboard */; };
+		525718AF1D6A73EA007D744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525718AE1D6A73EA007D744C /* Assets.xcassets */; };
+		525718B21D6A73EA007D744C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525718B01D6A73EA007D744C /* LaunchScreen.storyboard */; };
+		525718BD1D6A73EA007D744C /* tagvrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718BC1D6A73EA007D744C /* tagvrTests.swift */; };
+		525718C81D6A73EA007D744C /* tagvrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718C71D6A73EA007D744C /* tagvrUITests.swift */; };
+		5294F2E11DB5CA01007D9849 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294F2E01DB5CA01007D9849 /* VideoViewController.swift */; };
+		529E7E201DA5EAAC0039A4F5 /* Pods_tagvr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B303D3063A38CEF3746E6C /* Pods_tagvr.framework */; };
+		52AAFBF81DB57B6A00C0AC67 /* PanoramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */; };
+		52AAFBFA1DB57FDD00C0AC67 /* VrVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAFBF91DB57FDD00C0AC67 /* VrVideoViewController.swift */; };
+		52C8A7F91DA1FB08001759F5 /* VRVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */; };
+		52C8A7FB1DA1FEFA001759F5 /* VRVideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */; };
+		52C8A8001DA30264001759F5 /* VRVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7FF1DA30264001759F5 /* VRVideo.swift */; };
+		52CFBD761DADE0C700BF8760 /* VRPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */; };
+		52CFBD781DB0353300BF8760 /* VRPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD771DB0353300BF8760 /* VRPhotoTableViewController.swift */; };
+		52CFBD7A1DB0416500BF8760 /* VRPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD791DB0416500BF8760 /* VRPhoto.swift */; };
+		52E95A2F1DB6FCA6009A0FFF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95A2E1DB6FCA6009A0FFF /* Video.swift */; };
+		52E95A311DB706B2009A0FFF /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95A301DB706B2009A0FFF /* VideoTableViewController.swift */; };
+		52E95A331DB706BE009A0FFF /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */; };
+		82F8FD60D265234ED1E05542 /* Pods_tagvrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B82C5173E4FE5DE3FD1BD00 /* Pods_tagvrTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525718B91D6A73EA007D744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5257189C1D6A73EA007D744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525718A31D6A73EA007D744C;
+			remoteInfo = tagvr;
+		};
+		525718C41D6A73EA007D744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5257189C1D6A73EA007D744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525718A31D6A73EA007D744C;
+			remoteInfo = tagvr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B303D3063A38CEF3746E6C /* Pods_tagvr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2549B79B1DAC5AA10033762C /* ContactPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactPageController.swift; sourceTree = "<group>"; };
+		2549B79D1DAC5F800033762C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3B82C5173E4FE5DE3FD1BD00 /* Pods_tagvrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF559CDA641EDD9DE04AB61 /* Pods-tagvr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvr.release.xcconfig"; path = "Pods/Target Support Files/Pods-tagvr/Pods-tagvr.release.xcconfig"; sourceTree = "<group>"; };
+		52226C891DA6F1E2003C2AAD /* tagvr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tagvr-Bridging-Header.h"; sourceTree = "<group>"; };
+		525718A41D6A73EA007D744C /* magnifyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magnifyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525718A71D6A73EA007D744C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525718A91D6A73EA007D744C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525718AC1D6A73EA007D744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525718AE1D6A73EA007D744C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525718B11D6A73EA007D744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525718B31D6A73EA007D744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525718B81D6A73EA007D744C /* magnifyappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magnifyappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525718BC1D6A73EA007D744C /* tagvrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagvrTests.swift; sourceTree = "<group>"; };
+		525718BE1D6A73EA007D744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525718C31D6A73EA007D744C /* magnifyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magnifyappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525718C71D6A73EA007D744C /* tagvrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagvrUITests.swift; sourceTree = "<group>"; };
+		525718C91D6A73EA007D744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5294F2E01DB5CA01007D9849 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
+		52AAFBF91DB57FDD00C0AC67 /* VrVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VrVideoViewController.swift; sourceTree = "<group>"; };
+		52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVideoTableViewCell.swift; sourceTree = "<group>"; };
+		52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVideoTableViewController.swift; sourceTree = "<group>"; };
+		52C8A7FF1DA30264001759F5 /* VRVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVideo.swift; sourceTree = "<group>"; };
+		52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		52CFBD771DB0353300BF8760 /* VRPhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPhotoTableViewController.swift; sourceTree = "<group>"; };
+		52CFBD791DB0416500BF8760 /* VRPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPhoto.swift; sourceTree = "<group>"; };
+		52D5B0EB1DA5F67800D6D4C9 /* libCardboardSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCardboardSDK.a; path = Pods/CardboardSDK/Libraries/libCardboardSDK.a; sourceTree = "<group>"; };
+		52E95A2E1DB6FCA6009A0FFF /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		52E95A301DB706B2009A0FFF /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		6E590796BD967908E2AF6EC6 /* Pods-tagvrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tagvrTests/Pods-tagvrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B58D895384E20CB1438AA39C /* Pods-tagvrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tagvrTests/Pods-tagvrTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE33F603C793BA84E9F287DF /* Pods-tagvr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tagvr/Pods-tagvr.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525718A11D6A73EA007D744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529E7E201DA5EAAC0039A4F5 /* Pods_tagvr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525718B51D6A73EA007D744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2549B79E1DAC5F800033762C /* MessageUI.framework in Frameworks */,
+				82F8FD60D265234ED1E05542 /* Pods_tagvrTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525718C01D6A73EA007D744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5257189B1D6A73EA007D744C = {
+			isa = PBXGroup;
+			children = (
+				525718A61D6A73EA007D744C /* tagvr */,
+				525718BB1D6A73EA007D744C /* tagvrTests */,
+				525718C61D6A73EA007D744C /* tagvrUITests */,
+				525718A51D6A73EA007D744C /* Products */,
+				F78858BA8692178C8E4D7531 /* Pods */,
+				C9C4CD39342AEDFDA0279655 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		525718A51D6A73EA007D744C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525718A41D6A73EA007D744C /* magnifyapp.app */,
+				525718B81D6A73EA007D744C /* magnifyappTests.xctest */,
+				525718C31D6A73EA007D744C /* magnifyappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525718A61D6A73EA007D744C /* tagvr */ = {
+			isa = PBXGroup;
+			children = (
+				52226C891DA6F1E2003C2AAD /* tagvr-Bridging-Header.h */,
+				525718A71D6A73EA007D744C /* AppDelegate.swift */,
+				525718A91D6A73EA007D744C /* ViewController.swift */,
+				52AAFBF91DB57FDD00C0AC67 /* VrVideoViewController.swift */,
+				5294F2E01DB5CA01007D9849 /* VideoViewController.swift */,
+				52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */,
+				2549B79B1DAC5AA10033762C /* ContactPageController.swift */,
+				525718AB1D6A73EA007D744C /* Main.storyboard */,
+				52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */,
+				52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */,
+				52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */,
+				52CFBD771DB0353300BF8760 /* VRPhotoTableViewController.swift */,
+				52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */,
+				52E95A301DB706B2009A0FFF /* VideoTableViewController.swift */,
+				52C8A7FF1DA30264001759F5 /* VRVideo.swift */,
+				52CFBD791DB0416500BF8760 /* VRPhoto.swift */,
+				52E95A2E1DB6FCA6009A0FFF /* Video.swift */,
+				525718AE1D6A73EA007D744C /* Assets.xcassets */,
+				525718B01D6A73EA007D744C /* LaunchScreen.storyboard */,
+				525718B31D6A73EA007D744C /* Info.plist */,
+			);
+			path = tagvr;
+			sourceTree = "<group>";
+		};
+		525718BB1D6A73EA007D744C /* tagvrTests */ = {
+			isa = PBXGroup;
+			children = (
+				525718BC1D6A73EA007D744C /* tagvrTests.swift */,
+				525718BE1D6A73EA007D744C /* Info.plist */,
+			);
+			path = tagvrTests;
+			sourceTree = "<group>";
+		};
+		525718C61D6A73EA007D744C /* tagvrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525718C71D6A73EA007D744C /* tagvrUITests.swift */,
+				525718C91D6A73EA007D744C /* Info.plist */,
+			);
+			path = tagvrUITests;
+			sourceTree = "<group>";
+		};
+		C9C4CD39342AEDFDA0279655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2549B79D1DAC5F800033762C /* MessageUI.framework */,
+				52D5B0EB1DA5F67800D6D4C9 /* libCardboardSDK.a */,
+				21B303D3063A38CEF3746E6C /* Pods_tagvr.framework */,
+				3B82C5173E4FE5DE3FD1BD00 /* Pods_tagvrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F78858BA8692178C8E4D7531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE33F603C793BA84E9F287DF /* Pods-tagvr.debug.xcconfig */,
+				3EF559CDA641EDD9DE04AB61 /* Pods-tagvr.release.xcconfig */,
+				6E590796BD967908E2AF6EC6 /* Pods-tagvrTests.debug.xcconfig */,
+				B58D895384E20CB1438AA39C /* Pods-tagvrTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525718A31D6A73EA007D744C /* magnifyapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525718CC1D6A73EA007D744C /* Build configuration list for PBXNativeTarget "magnifyapp" */;
+			buildPhases = (
+				571EE91606DB830BC3FC94F6 /* [CP] Check Pods Manifest.lock */,
+				525718A01D6A73EA007D744C /* Sources */,
+				525718A11D6A73EA007D744C /* Frameworks */,
+				525718A21D6A73EA007D744C /* Resources */,
+				05DFC83DE668F3E6762248AB /* [CP] Embed Pods Frameworks */,
+				291E527B28E792754AE59A6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magnifyapp;
+			productName = tagvr;
+			productReference = 525718A41D6A73EA007D744C /* magnifyapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525718B71D6A73EA007D744C /* magnifyappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525718CF1D6A73EA007D744C /* Build configuration list for PBXNativeTarget "magnifyappTests" */;
+			buildPhases = (
+				E87BAD92F99957EFABA460D4 /* [CP] Check Pods Manifest.lock */,
+				525718B41D6A73EA007D744C /* Sources */,
+				525718B51D6A73EA007D744C /* Frameworks */,
+				525718B61D6A73EA007D744C /* Resources */,
+				1A2986D5060958A92A020E74 /* [CP] Embed Pods Frameworks */,
+				33F5108BA944432C85257976 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525718BA1D6A73EA007D744C /* PBXTargetDependency */,
+			);
+			name = magnifyappTests;
+			productName = tagvrTests;
+			productReference = 525718B81D6A73EA007D744C /* magnifyappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525718C21D6A73EA007D744C /* magnifyappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525718D21D6A73EA007D744C /* Build configuration list for PBXNativeTarget "magnifyappUITests" */;
+			buildPhases = (
+				525718BF1D6A73EA007D744C /* Sources */,
+				525718C01D6A73EA007D744C /* Frameworks */,
+				525718C11D6A73EA007D744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525718C51D6A73EA007D744C /* PBXTargetDependency */,
+			);
+			name = magnifyappUITests;
+			productName = tagvrUITests;
+			productReference = 525718C31D6A73EA007D744C /* magnifyappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5257189C1D6A73EA007D744C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tag the agency";
+				TargetAttributes = {
+					525718A31D6A73EA007D744C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GKW5GXD942;
+						LastSwiftMigration = 0800;
+					};
+					525718B71D6A73EA007D744C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 525718A31D6A73EA007D744C;
+					};
+					525718C21D6A73EA007D744C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 525718A31D6A73EA007D744C;
+					};
+				};
+			};
+			buildConfigurationList = 5257189F1D6A73EA007D744C /* Build configuration list for PBXProject "magnifyapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5257189B1D6A73EA007D744C;
+			productRefGroup = 525718A51D6A73EA007D744C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525718A31D6A73EA007D744C /* magnifyapp */,
+				525718B71D6A73EA007D744C /* magnifyappTests */,
+				525718C21D6A73EA007D744C /* magnifyappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525718A21D6A73EA007D744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525718B21D6A73EA007D744C /* LaunchScreen.storyboard in Resources */,
+				525718AF1D6A73EA007D744C /* Assets.xcassets in Resources */,
+				525718AD1D6A73EA007D744C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525718B61D6A73EA007D744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525718C11D6A73EA007D744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05DFC83DE668F3E6762248AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tagvr/Pods-tagvr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A2986D5060958A92A020E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tagvrTests/Pods-tagvrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		291E527B28E792754AE59A6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tagvr/Pods-tagvr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F5108BA944432C85257976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tagvrTests/Pods-tagvrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571EE91606DB830BC3FC94F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E87BAD92F99957EFABA460D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525718A01D6A73EA007D744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AAFBFA1DB57FDD00C0AC67 /* VrVideoViewController.swift in Sources */,
+				525718AA1D6A73EA007D744C /* ViewController.swift in Sources */,
+				52E95A2F1DB6FCA6009A0FFF /* Video.swift in Sources */,
+				52CFBD7A1DB0416500BF8760 /* VRPhoto.swift in Sources */,
+				5294F2E11DB5CA01007D9849 /* VideoViewController.swift in Sources */,
+				52CFBD781DB0353300BF8760 /* VRPhotoTableViewController.swift in Sources */,
+				52E95A311DB706B2009A0FFF /* VideoTableViewController.swift in Sources */,
+				52CFBD761DADE0C700BF8760 /* VRPhotoTableViewCell.swift in Sources */,
+				52AAFBF81DB57B6A00C0AC67 /* PanoramaViewController.swift in Sources */,
+				2549B79C1DAC5AA10033762C /* ContactPageController.swift in Sources */,
+				525718A81D6A73EA007D744C /* AppDelegate.swift in Sources */,
+				52C8A7FB1DA1FEFA001759F5 /* VRVideoTableViewController.swift in Sources */,
+				52E95A331DB706BE009A0FFF /* VideoTableViewCell.swift in Sources */,
+				52C8A7F91DA1FB08001759F5 /* VRVideoTableViewCell.swift in Sources */,
+				52C8A8001DA30264001759F5 /* VRVideo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525718B41D6A73EA007D744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525718BD1D6A73EA007D744C /* tagvrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525718BF1D6A73EA007D744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525718C81D6A73EA007D744C /* tagvrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525718BA1D6A73EA007D744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525718A31D6A73EA007D744C /* magnifyapp */;
+			targetProxy = 525718B91D6A73EA007D744C /* PBXContainerItemProxy */;
+		};
+		525718C51D6A73EA007D744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525718A31D6A73EA007D744C /* magnifyapp */;
+			targetProxy = 525718C41D6A73EA007D744C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525718AB1D6A73EA007D744C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525718AC1D6A73EA007D744C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525718B01D6A73EA007D744C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525718B11D6A73EA007D744C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525718CA1D6A73EA007D744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525718CB1D6A73EA007D744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525718CD1D6A73EA007D744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE33F603C793BA84E9F287DF /* Pods-tagvr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GKW5GXD942;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = tagvr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"${PODS_ROOT}/GVRSDK/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagtheagency.magnifyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tagvr/tagvr-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		525718CE1D6A73EA007D744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF559CDA641EDD9DE04AB61 /* Pods-tagvr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GKW5GXD942;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = tagvr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"${PODS_ROOT}/GVRSDK/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagtheagency.magnifyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tagvr/tagvr-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		525718D01D6A73EA007D744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E590796BD967908E2AF6EC6 /* Pods-tagvrTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tagvrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagtheagency.tagvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magnifyapp.app/magnifyapp";
+			};
+			name = Debug;
+		};
+		525718D11D6A73EA007D744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58D895384E20CB1438AA39C /* Pods-tagvrTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tagvrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagtheagency.tagvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magnifyapp.app/magnifyapp";
+			};
+			name = Release;
+		};
+		525718D31D6A73EA007D744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tagvrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagtheagency.tagvrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tagvr;
+			};
+			name = Debug;
+		};
+		525718D41D6A73EA007D744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tagvrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagtheagency.tagvrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tagvr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5257189F1D6A73EA007D744C /* Build configuration list for PBXProject "magnifyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525718CA1D6A73EA007D744C /* Debug */,
+				525718CB1D6A73EA007D744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525718CC1D6A73EA007D744C /* Build configuration list for PBXNativeTarget "magnifyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525718CD1D6A73EA007D744C /* Debug */,
+				525718CE1D6A73EA007D744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525718CF1D6A73EA007D744C /* Build configuration list for PBXNativeTarget "magnifyappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525718D01D6A73EA007D744C /* Debug */,
+				525718D11D6A73EA007D744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525718D21D6A73EA007D744C /* Build configuration list for PBXNativeTarget "magnifyappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525718D31D6A73EA007D744C /* Debug */,
+				525718D41D6A73EA007D744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5257189C1D6A73EA007D744C /* Project object */;
+}
