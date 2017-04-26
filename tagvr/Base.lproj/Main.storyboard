@@ -15,9 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="900x500" id="RGl-Mj-cCP">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="172"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="VRVideoTableViewCell" rowHeight="240" id="uqP-3N-aq8" customClass="VRVideoTableViewCell" customModule="magnifyapp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="375" height="240"/>
+                                <rect key="frame" x="0.0" y="200" width="375" height="240"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uqP-3N-aq8" id="tCz-yu-bcs">
                                     <frame key="frameInset" width="342" height="239"/>
@@ -64,7 +68,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Oe-Cp-apE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1314.4927536231885" y="336.68478260869568"/>
+            <point key="canvasLocation" x="472.80000000000001" y="335.98200899550227"/>
         </scene>
         <!--VRStudio-->
         <scene sceneID="Fqf-cV-BDj">
@@ -113,13 +117,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CHW-fR-ef6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2060.8695652173915" y="336.68478260869568"/>
+            <point key="canvasLocation" x="1300" y="336"/>
         </scene>
         <!--TagVR-->
         <scene sceneID="yTQ-8k-Z1n">
             <objects>
-                <navigationController title="TagVR" automaticallyAdjustsScrollViewInsets="NO" id="xbA-zw-4Hg" sceneMemberID="viewController">
+                <navigationController title="TagVR" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="xbA-zw-4Hg" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="q3e-fL-GBx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -143,4 +148,7 @@
             <point key="canvasLocation" x="-361" y="336"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="900x500" width="900" height="500"/>
+    </resources>
 </document>
