@@ -10,12 +10,12 @@ import UIKit
 
 class VRVideo {
     
-    var photo: UIImage
+    var photo: String
     var title: String
     var duration: String
     var video: String
     
-    init?(photo: UIImage, title: String, duration: String, video: String) {
+    init?(photo: String, title: String, duration: String, video: String) {
         
         self.photo = photo
         self.title = title

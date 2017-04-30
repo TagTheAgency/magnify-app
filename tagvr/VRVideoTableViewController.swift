@@ -8,23 +8,56 @@
 
 import UIKit
 
+
 class VRVideoTableViewController: UITableViewController {
     
     var vrVideos = [VRVideo]()
     
     func loadSampleVideos() {
-        let photo1 = UIImage(named: "image1")!
-        let video1 = VRVideo(photo: photo1, title: "Soaring with Orcas", duration: "2:52", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
+        //let photo1 = UIImage(named: "image1")!
+        //let video1 = VRVideo(photo: photo1, title: "Soaring with Orcas", duration: "2:52", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
+        //
+        //let photo2 = UIImage(named: "image2")!
+        //let video2 = VRVideo(photo: photo2, title: "Road Trip New Zealand", duration: "1:29", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
+        //
+        //let photo3 = UIImage(named: "image3")!
+        //let video3 = VRVideo(photo: photo3, title: "Aventador Test", duration: "3:12", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
         
-        let photo2 = UIImage(named: "image2")!
-        let video2 = VRVideo(photo: photo2, title: "Road Trip New Zealand", duration: "1:29", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
+        getJSON(urlToRequest: "https://api.myjson.com/bins/h843t")
         
-        let photo3 = UIImage(named: "image3")!
-        let video3 = VRVideo(photo: photo3, title: "Aventador Test", duration: "3:12", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
-        
-        vrVideos += [video1, video2, video3]
+        //vrVideos += [video1, video2, video3]
 
     }
+    
+    func getJSON(urlToRequest:String) {
+        let url=URL(string:urlToRequest)
+        do {
+            let allContactsData = try Data(contentsOf: url!)
+            let allContacts = try JSONSerialization.jsonObject(with: allContactsData, options: JSONSerialization.ReadingOptions.allowFragments) as! [String : AnyObject]
+            if let arrJSON = allContacts["videos"] {
+                for index in 0...arrJSON.count-1 {
+                    
+                    let aObject = arrJSON[index] as! [String : AnyObject]
+                    
+                    let photoURL = aObject["photo"] as! String
+                    let title = aObject["title"] as! String
+                    let duraction = aObject["duration"] as! String
+                    let videoName = aObject["video"] as! String
+                    
+                    print(photoURL)
+                    print(title)
+                    
+                    let video = VRVideo(photo: photoURL, title: title, duration: duraction, video: videoName)
+                    
+                    vrVideos.append(video!)
+                }
+            }
+        }
+        catch {
+            
+        }
+    }
+
 
     
     override func viewDidLoad() {
@@ -61,7 +94,7 @@ class VRVideoTableViewController: UITableViewController {
         
         let vrVideo = vrVideos[indexPath.row]
 
-        cell.coverImageView.image = vrVideo.photo
+        cell.coverImageView.downloadedFrom(link: vrVideo.photo)
         cell.coverTitle.text = vrVideo.title
         
         return cell
