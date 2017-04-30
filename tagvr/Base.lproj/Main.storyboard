@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,11 +21,11 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="VRVideoTableViewCell" rowHeight="240" id="uqP-3N-aq8" customClass="VRVideoTableViewCell" customModule="magnifyapp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VRVideoTableViewCell" rowHeight="240" id="uqP-3N-aq8" customClass="VRVideoTableViewCell" customModule="magnifyapp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="200" width="375" height="240"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uqP-3N-aq8" id="tCz-yu-bcs">
-                                    <frame key="frameInset" width="342" height="239"/>
+                                    <frame key="frameInset" width="375" height="239"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KA7-mj-UhI"/>
@@ -33,7 +34,27 @@
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sb-af-u73">
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-Yn-MOx">
+                                                    <frame key="frameInset" minX="-34" width="240" height="128"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="rX3-Yn-MOx" secondAttribute="bottom" priority="250" constant="112" id="00M-CH-Eg5"/>
+                                                <constraint firstItem="rX3-Yn-MOx" firstAttribute="top" secondItem="4sb-af-u73" secondAttribute="top" id="Pvj-9K-4kg"/>
+                                                <constraint firstItem="rX3-Yn-MOx" firstAttribute="width" secondItem="4sb-af-u73" secondAttribute="width" id="onh-f0-00d"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="4sb-af-u73" firstAttribute="width" secondItem="KA7-mj-UhI" secondAttribute="height" multiplier="1:1.5" id="SZS-NA-Hgx"/>
+                                        <constraint firstItem="4sb-af-u73" firstAttribute="height" secondItem="KA7-mj-UhI" secondAttribute="height" id="bfY-9e-8J1"/>
+                                        <constraint firstItem="4sb-af-u73" firstAttribute="top" secondItem="KA7-mj-UhI" secondAttribute="top" id="hcZ-Rn-8jd"/>
+                                        <constraint firstItem="4sb-af-u73" firstAttribute="bottom" secondItem="KA7-mj-UhI" secondAttribute="bottom" id="nNb-md-JmN"/>
+                                        <constraint firstItem="4sb-af-u73" firstAttribute="trailing" secondItem="KA7-mj-UhI" secondAttribute="trailing" id="rNy-Uv-NWO"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <constraints>
                                     <constraint firstItem="KA7-mj-UhI" firstAttribute="width" secondItem="uqP-3N-aq8" secondAttribute="width" id="5yK-aO-rue"/>

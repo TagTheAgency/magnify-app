@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2549B79C1DAC5AA10033762C /* ContactPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549B79B1DAC5AA10033762C /* ContactPageController.swift */; };
 		2549B79E1DAC5F800033762C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549B79D1DAC5F800033762C /* MessageUI.framework */; };
+		5229E50F1EB6814B00B8BA05 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229E50E1EB6814B00B8BA05 /* UIImageExtension.swift */; };
 		525718A81D6A73EA007D744C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718A71D6A73EA007D744C /* AppDelegate.swift */; };
 		525718AA1D6A73EA007D744C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718A91D6A73EA007D744C /* ViewController.swift */; };
 		525718AD1D6A73EA007D744C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525718AB1D6A73EA007D744C /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		3B82C5173E4FE5DE3FD1BD00 /* Pods_tagvrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF559CDA641EDD9DE04AB61 /* Pods-tagvr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvr.release.xcconfig"; path = "Pods/Target Support Files/Pods-tagvr/Pods-tagvr.release.xcconfig"; sourceTree = "<group>"; };
 		52226C891DA6F1E2003C2AAD /* tagvr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tagvr-Bridging-Header.h"; sourceTree = "<group>"; };
+		5229E50E1EB6814B00B8BA05 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		525718A41D6A73EA007D744C /* magnifyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magnifyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525718A71D6A73EA007D744C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525718A91D6A73EA007D744C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */,
 				2549B79B1DAC5AA10033762C /* ContactPageController.swift */,
 				525718AB1D6A73EA007D744C /* Main.storyboard */,
+				5229E50E1EB6814B00B8BA05 /* UIImageExtension.swift */,
 				52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */,
 				52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */,
 				52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */,
@@ -453,6 +456,7 @@
 				52E95A331DB706BE009A0FFF /* VideoTableViewCell.swift in Sources */,
 				52C8A7F91DA1FB08001759F5 /* VRVideoTableViewCell.swift in Sources */,
 				52C8A8001DA30264001759F5 /* VRVideo.swift in Sources */,
+				5229E50F1EB6814B00B8BA05 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

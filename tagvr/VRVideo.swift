@@ -15,7 +15,7 @@ class VRVideo {
     var duration: String
     var video: String
     
-    init?(photo: String, title: String, duration: String, video: String) {
+    init?(photo: String, logo: String, title: String, duration: String, video: String) {
         
         self.photo = photo
         self.title = title

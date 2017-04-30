@@ -23,7 +23,7 @@ class VRVideoTableViewController: UITableViewController {
         //let photo3 = UIImage(named: "image3")!
         //let video3 = VRVideo(photo: photo3, title: "Aventador Test", duration: "3:12", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
         
-        getJSON(urlToRequest: "https://api.myjson.com/bins/h843t")
+        getJSON(urlToRequest: "https://api.myjson.com/bins/inntd")
         
         //vrVideos += [video1, video2, video3]
 
@@ -40,6 +40,7 @@ class VRVideoTableViewController: UITableViewController {
                     let aObject = arrJSON[index] as! [String : AnyObject]
                     
                     let photoURL = aObject["photo"] as! String
+                    let logoURL = aObject["logo"] as! String
                     let title = aObject["title"] as! String
                     let duraction = aObject["duration"] as! String
                     let videoName = aObject["video"] as! String
@@ -47,7 +48,7 @@ class VRVideoTableViewController: UITableViewController {
                     print(photoURL)
                     print(title)
                     
-                    let video = VRVideo(photo: photoURL, title: title, duration: duraction, video: videoName)
+                    let video = VRVideo(photo: photoURL, logo: logoURL, title: title, duration: duraction, video: videoName)
                     
                     vrVideos.append(video!)
                 }
