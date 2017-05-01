@@ -23,8 +23,7 @@ class VrVideoViewController: UIViewController {
             videoVRView.load(from: URL(string: vrVideo.video))
             videoVRView.enableCardboardButton = true
             videoVRView.enableFullscreenButton = true
-            titleLabel.text = vrVideo.title
-            durationLabel.text = vrVideo.duration
+            titleLabel.text = vrVideo.company
         }
 
         // Do any additional setup after loading the view.

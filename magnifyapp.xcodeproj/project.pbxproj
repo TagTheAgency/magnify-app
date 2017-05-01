@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2549B79C1DAC5AA10033762C /* ContactPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549B79B1DAC5AA10033762C /* ContactPageController.swift */; };
 		2549B79E1DAC5F800033762C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549B79D1DAC5F800033762C /* MessageUI.framework */; };
 		5229E50F1EB6814B00B8BA05 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229E50E1EB6814B00B8BA05 /* UIImageExtension.swift */; };
 		525718A81D6A73EA007D744C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718A71D6A73EA007D744C /* AppDelegate.swift */; };
@@ -17,19 +16,11 @@
 		525718B21D6A73EA007D744C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525718B01D6A73EA007D744C /* LaunchScreen.storyboard */; };
 		525718BD1D6A73EA007D744C /* tagvrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718BC1D6A73EA007D744C /* tagvrTests.swift */; };
 		525718C81D6A73EA007D744C /* tagvrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718C71D6A73EA007D744C /* tagvrUITests.swift */; };
-		5294F2E11DB5CA01007D9849 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294F2E01DB5CA01007D9849 /* VideoViewController.swift */; };
 		529E7E201DA5EAAC0039A4F5 /* Pods_tagvr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B303D3063A38CEF3746E6C /* Pods_tagvr.framework */; };
-		52AAFBF81DB57B6A00C0AC67 /* PanoramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */; };
 		52AAFBFA1DB57FDD00C0AC67 /* VrVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAFBF91DB57FDD00C0AC67 /* VrVideoViewController.swift */; };
 		52C8A7F91DA1FB08001759F5 /* VRVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */; };
 		52C8A7FB1DA1FEFA001759F5 /* VRVideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */; };
 		52C8A8001DA30264001759F5 /* VRVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7FF1DA30264001759F5 /* VRVideo.swift */; };
-		52CFBD761DADE0C700BF8760 /* VRPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */; };
-		52CFBD781DB0353300BF8760 /* VRPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD771DB0353300BF8760 /* VRPhotoTableViewController.swift */; };
-		52CFBD7A1DB0416500BF8760 /* VRPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD791DB0416500BF8760 /* VRPhoto.swift */; };
-		52E95A2F1DB6FCA6009A0FFF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95A2E1DB6FCA6009A0FFF /* Video.swift */; };
-		52E95A311DB706B2009A0FFF /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95A301DB706B2009A0FFF /* VideoTableViewController.swift */; };
-		52E95A331DB706BE009A0FFF /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */; };
 		82F8FD60D265234ED1E05542 /* Pods_tagvrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B82C5173E4FE5DE3FD1BD00 /* Pods_tagvrTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		21B303D3063A38CEF3746E6C /* Pods_tagvr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2549B79B1DAC5AA10033762C /* ContactPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactPageController.swift; sourceTree = "<group>"; };
 		2549B79D1DAC5F800033762C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3B82C5173E4FE5DE3FD1BD00 /* Pods_tagvrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF559CDA641EDD9DE04AB61 /* Pods-tagvr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvr.release.xcconfig"; path = "Pods/Target Support Files/Pods-tagvr/Pods-tagvr.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,19 +61,11 @@
 		525718C31D6A73EA007D744C /* magnifyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magnifyappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525718C71D6A73EA007D744C /* tagvrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagvrUITests.swift; sourceTree = "<group>"; };
 		525718C91D6A73EA007D744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5294F2E01DB5CA01007D9849 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
-		52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
 		52AAFBF91DB57FDD00C0AC67 /* VrVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VrVideoViewController.swift; sourceTree = "<group>"; };
 		52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVideoTableViewCell.swift; sourceTree = "<group>"; };
 		52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVideoTableViewController.swift; sourceTree = "<group>"; };
 		52C8A7FF1DA30264001759F5 /* VRVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVideo.swift; sourceTree = "<group>"; };
-		52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPhotoTableViewCell.swift; sourceTree = "<group>"; };
-		52CFBD771DB0353300BF8760 /* VRPhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPhotoTableViewController.swift; sourceTree = "<group>"; };
-		52CFBD791DB0416500BF8760 /* VRPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRPhoto.swift; sourceTree = "<group>"; };
 		52D5B0EB1DA5F67800D6D4C9 /* libCardboardSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCardboardSDK.a; path = Pods/CardboardSDK/Libraries/libCardboardSDK.a; sourceTree = "<group>"; };
-		52E95A2E1DB6FCA6009A0FFF /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-		52E95A301DB706B2009A0FFF /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
-		52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		6E590796BD967908E2AF6EC6 /* Pods-tagvrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tagvrTests/Pods-tagvrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B58D895384E20CB1438AA39C /* Pods-tagvrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tagvrTests/Pods-tagvrTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE33F603C793BA84E9F287DF /* Pods-tagvr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tagvr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tagvr/Pods-tagvr.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,20 +128,11 @@
 				525718A71D6A73EA007D744C /* AppDelegate.swift */,
 				525718A91D6A73EA007D744C /* ViewController.swift */,
 				52AAFBF91DB57FDD00C0AC67 /* VrVideoViewController.swift */,
-				5294F2E01DB5CA01007D9849 /* VideoViewController.swift */,
-				52AAFBF71DB57B6A00C0AC67 /* PanoramaViewController.swift */,
-				2549B79B1DAC5AA10033762C /* ContactPageController.swift */,
 				525718AB1D6A73EA007D744C /* Main.storyboard */,
 				5229E50E1EB6814B00B8BA05 /* UIImageExtension.swift */,
-				52E95A321DB706BE009A0FFF /* VideoTableViewCell.swift */,
-				52CFBD751DADE0C700BF8760 /* VRPhotoTableViewCell.swift */,
 				52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */,
-				52CFBD771DB0353300BF8760 /* VRPhotoTableViewController.swift */,
 				52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */,
-				52E95A301DB706B2009A0FFF /* VideoTableViewController.swift */,
 				52C8A7FF1DA30264001759F5 /* VRVideo.swift */,
-				52CFBD791DB0416500BF8760 /* VRPhoto.swift */,
-				52E95A2E1DB6FCA6009A0FFF /* Video.swift */,
 				525718AE1D6A73EA007D744C /* Assets.xcassets */,
 				525718B01D6A73EA007D744C /* LaunchScreen.storyboard */,
 				525718B31D6A73EA007D744C /* Info.plist */,
@@ -443,17 +416,8 @@
 			files = (
 				52AAFBFA1DB57FDD00C0AC67 /* VrVideoViewController.swift in Sources */,
 				525718AA1D6A73EA007D744C /* ViewController.swift in Sources */,
-				52E95A2F1DB6FCA6009A0FFF /* Video.swift in Sources */,
-				52CFBD7A1DB0416500BF8760 /* VRPhoto.swift in Sources */,
-				5294F2E11DB5CA01007D9849 /* VideoViewController.swift in Sources */,
-				52CFBD781DB0353300BF8760 /* VRPhotoTableViewController.swift in Sources */,
-				52E95A311DB706B2009A0FFF /* VideoTableViewController.swift in Sources */,
-				52CFBD761DADE0C700BF8760 /* VRPhotoTableViewCell.swift in Sources */,
-				52AAFBF81DB57B6A00C0AC67 /* PanoramaViewController.swift in Sources */,
-				2549B79C1DAC5AA10033762C /* ContactPageController.swift in Sources */,
 				525718A81D6A73EA007D744C /* AppDelegate.swift in Sources */,
 				52C8A7FB1DA1FEFA001759F5 /* VRVideoTableViewController.swift in Sources */,
-				52E95A331DB706BE009A0FFF /* VideoTableViewCell.swift in Sources */,
 				52C8A7F91DA1FB08001759F5 /* VRVideoTableViewCell.swift in Sources */,
 				52C8A8001DA30264001759F5 /* VRVideo.swift in Sources */,
 				5229E50F1EB6814B00B8BA05 /* UIImageExtension.swift in Sources */,

@@ -36,15 +36,17 @@
                                         </label>
                                         <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sb-af-u73">
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-Yn-MOx">
-                                                    <frame key="frameInset" minX="-34" width="240" height="128"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo-360" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-Yn-MOx">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="120" id="ys7-O9-F6w"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="rX3-Yn-MOx" secondAttribute="bottom" priority="250" constant="112" id="00M-CH-Eg5"/>
-                                                <constraint firstItem="rX3-Yn-MOx" firstAttribute="top" secondItem="4sb-af-u73" secondAttribute="top" id="Pvj-9K-4kg"/>
+                                                <constraint firstAttribute="bottom" secondItem="rX3-Yn-MOx" secondAttribute="bottom" id="doL-Se-Hyu"/>
                                                 <constraint firstItem="rX3-Yn-MOx" firstAttribute="width" secondItem="4sb-af-u73" secondAttribute="width" id="onh-f0-00d"/>
+                                                <constraint firstItem="rX3-Yn-MOx" firstAttribute="leading" secondItem="4sb-af-u73" secondAttribute="leading" id="tEe-Rx-1dW"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -67,6 +69,7 @@
                                 <connections>
                                     <outlet property="coverImageView" destination="KA7-mj-UhI" id="BqG-MM-OeI"/>
                                     <outlet property="coverTitle" destination="uTI-CR-Cv8" id="xDL-4D-gJX"/>
+                                    <outlet property="logoImageView" destination="rX3-Yn-MOx" id="04p-ad-tpz"/>
                                     <segue destination="cOL-vL-3PB" kind="show" identifier="ShowVideoDetail" id="ikJ-8k-ZNv"/>
                                 </connections>
                             </tableViewCell>
@@ -138,7 +141,7 @@
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q3e-fL-GBx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="q3e-fL-GBx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.92156862750000001" green="0.33333333329999998" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -162,5 +165,6 @@
     </scenes>
     <resources>
         <image name="homepage-IMG" width="1127" height="443"/>
+        <image name="tokyo-360" width="1024" height="512"/>
     </resources>
 </document>
