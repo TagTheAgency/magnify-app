@@ -23,7 +23,7 @@ class VRVideoTableViewController: UITableViewController {
         //let photo3 = UIImage(named: "image3")!
         //let video3 = VRVideo(photo: photo3, title: "Aventador Test", duration: "3:12", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
         
-        getJSON(urlToRequest: "https://api.myjson.com/bins/x85rd")
+        getJSON(urlToRequest: "https://1819948887.rsc.cdn77.org/magnify.json")
         
         //vrVideos += [video1, video2, video3]
 
