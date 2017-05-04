@@ -63,6 +63,8 @@ class VRVideoTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.backgroundView = UIImageView(image: UIImage(named: "background.png")!)
+        
         loadSampleVideos()
 
         // Uncomment the following line to preserve selection between presentations
@@ -94,6 +96,8 @@ class VRVideoTableViewController: UITableViewController {
         
         let vrVideo = vrVideos[indexPath.row]
 
+        cell.coverImageView.layer.cornerRadius = 8.0
+        cell.coverImageOverlay.layer.cornerRadius = 8.0
         cell.coverImageView.downloadedFrom(link: vrVideo.photo)
         cell.coverTitle.text = vrVideo.company
         cell.logoImageView.downloadedFrom(link: vrVideo.logo)

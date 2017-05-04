@@ -15,7 +15,8 @@ class VRVideoTableViewCell: UITableViewCell {
     @IBOutlet weak var coverImageView: UIImageView!
     @IBOutlet weak var coverTitle: UILabel!
     @IBOutlet weak var logoImageView: UIImageView!
-
+    @IBOutlet weak var coverImageOverlay: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

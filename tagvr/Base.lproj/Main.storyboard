@@ -3,70 +3,70 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--360° Videos-->
+        <!--Video Table View Controller-->
         <scene sceneID="JWD-tV-2VE">
             <objects>
                 <tableViewController id="SVT-bq-dSf" customClass="VRVideoTableViewController" customModule="magnifyapp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="240" sectionHeaderHeight="28" sectionFooterHeight="28" id="oll-9w-la4">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" id="oll-9w-la4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage-IMG" id="RGl-Mj-cCP">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="172"/>
+                            <rect key="frame" x="0.0" y="64" width="375" height="172"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VRVideoTableViewCell" rowHeight="240" id="uqP-3N-aq8" customClass="VRVideoTableViewCell" customModule="magnifyapp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="200" width="375" height="240"/>
+                            <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VRVideoTableViewCell" rowHeight="200" id="uqP-3N-aq8" customClass="VRVideoTableViewCell" customModule="magnifyapp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="264" width="375" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uqP-3N-aq8" id="tCz-yu-bcs">
-                                    <frame key="frameInset" width="375" height="239"/>
+                                    <frame key="frameInset" width="375" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KA7-mj-UhI"/>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTI-CR-Cv8">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KA7-mj-UhI"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-Yn-MOx">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="90" id="aWF-GQ-e1c"/>
+                                                <constraint firstAttribute="height" constant="60" id="ys7-O9-F6w"/>
+                                            </constraints>
+                                        </imageView>
+                                        <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTY-rR-X6W">
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTI-CR-Cv8">
+                                            <frame key="frameInset" minX="268" minY="8" width="43" height="23"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="33"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sb-af-u73">
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo-360" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-Yn-MOx">
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="120" id="ys7-O9-F6w"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="rX3-Yn-MOx" secondAttribute="bottom" id="doL-Se-Hyu"/>
-                                                <constraint firstItem="rX3-Yn-MOx" firstAttribute="width" secondItem="4sb-af-u73" secondAttribute="width" id="onh-f0-00d"/>
-                                                <constraint firstItem="rX3-Yn-MOx" firstAttribute="leading" secondItem="4sb-af-u73" secondAttribute="leading" id="tEe-Rx-1dW"/>
-                                            </constraints>
-                                        </view>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstItem="4sb-af-u73" firstAttribute="width" secondItem="KA7-mj-UhI" secondAttribute="height" multiplier="1:1.5" id="SZS-NA-Hgx"/>
-                                        <constraint firstItem="4sb-af-u73" firstAttribute="height" secondItem="KA7-mj-UhI" secondAttribute="height" id="bfY-9e-8J1"/>
-                                        <constraint firstItem="4sb-af-u73" firstAttribute="top" secondItem="KA7-mj-UhI" secondAttribute="top" id="hcZ-Rn-8jd"/>
-                                        <constraint firstItem="4sb-af-u73" firstAttribute="bottom" secondItem="KA7-mj-UhI" secondAttribute="bottom" id="nNb-md-JmN"/>
-                                        <constraint firstItem="4sb-af-u73" firstAttribute="trailing" secondItem="KA7-mj-UhI" secondAttribute="trailing" id="rNy-Uv-NWO"/>
+                                        <constraint firstItem="WTY-rR-X6W" firstAttribute="centerY" secondItem="KA7-mj-UhI" secondAttribute="centerY" id="1qL-tO-sfi"/>
+                                        <constraint firstItem="WTY-rR-X6W" firstAttribute="width" secondItem="KA7-mj-UhI" secondAttribute="width" id="CSo-93-Llb"/>
+                                        <constraint firstItem="KA7-mj-UhI" firstAttribute="centerY" secondItem="tCz-yu-bcs" secondAttribute="centerY" id="EH9-k1-L5w"/>
+                                        <constraint firstItem="uTI-CR-Cv8" firstAttribute="centerY" secondItem="WTY-rR-X6W" secondAttribute="centerY" id="F22-FO-AlM"/>
+                                        <constraint firstItem="WTY-rR-X6W" firstAttribute="height" secondItem="KA7-mj-UhI" secondAttribute="height" id="Jct-3O-NA6"/>
+                                        <constraint firstItem="rX3-Yn-MOx" firstAttribute="leading" secondItem="WTY-rR-X6W" secondAttribute="trailing" constant="5" id="KxC-i2-zIC"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="KA7-mj-UhI" secondAttribute="leading" id="Rsk-c3-0u6"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="KA7-mj-UhI" secondAttribute="leading" id="WQ7-HT-UZM"/>
+                                        <constraint firstItem="WTY-rR-X6W" firstAttribute="centerX" secondItem="KA7-mj-UhI" secondAttribute="centerX" id="X3p-CN-Y9N"/>
+                                        <constraint firstItem="uTI-CR-Cv8" firstAttribute="centerX" secondItem="WTY-rR-X6W" secondAttribute="centerX" id="cL9-u1-PM0"/>
+                                        <constraint firstItem="rX3-Yn-MOx" firstAttribute="centerY" secondItem="KA7-mj-UhI" secondAttribute="centerY" id="ky0-YY-VAo"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="KA7-mj-UhI" firstAttribute="width" secondItem="uqP-3N-aq8" secondAttribute="width" id="5yK-aO-rue"/>
-                                    <constraint firstAttribute="bottom" secondItem="uTI-CR-Cv8" secondAttribute="bottom" constant="25" id="RNc-UG-3GD"/>
-                                    <constraint firstItem="KA7-mj-UhI" firstAttribute="centerX" secondItem="uqP-3N-aq8" secondAttribute="centerX" id="Sli-Cg-JJW"/>
-                                    <constraint firstItem="KA7-mj-UhI" firstAttribute="centerY" secondItem="uqP-3N-aq8" secondAttribute="centerY" id="Tc0-kt-Y09"/>
-                                    <constraint firstItem="uTI-CR-Cv8" firstAttribute="leading" secondItem="uqP-3N-aq8" secondAttribute="leading" constant="15" id="X6t-gT-y61"/>
-                                    <constraint firstItem="KA7-mj-UhI" firstAttribute="height" secondItem="uqP-3N-aq8" secondAttribute="height" id="ujK-9S-Ap2"/>
+                                    <constraint firstItem="KA7-mj-UhI" firstAttribute="width" secondItem="uqP-3N-aq8" secondAttribute="width" constant="-90" id="5yK-aO-rue"/>
+                                    <constraint firstItem="KA7-mj-UhI" firstAttribute="height" secondItem="uqP-3N-aq8" secondAttribute="height" constant="-10" id="ujK-9S-Ap2"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="coverImageOverlay" destination="WTY-rR-X6W" id="d5T-hX-QJE"/>
                                     <outlet property="coverImageView" destination="KA7-mj-UhI" id="BqG-MM-OeI"/>
                                     <outlet property="coverTitle" destination="uTI-CR-Cv8" id="xDL-4D-gJX"/>
                                     <outlet property="logoImageView" destination="rX3-Yn-MOx" id="04p-ad-tpz"/>
@@ -79,13 +79,16 @@
                             <outlet property="delegate" destination="SVT-bq-dSf" id="dCV-NH-X7L"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="360° Videos" id="F7U-KQ-DIz"/>
+                    <navigationItem key="navigationItem" id="F7U-KQ-DIz"/>
+                    <connections>
+                        <outlet property="tableView" destination="oll-9w-la4" id="gw9-aQ-dsY"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Oe-Cp-apE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="472.80000000000001" y="335.98200899550227"/>
         </scene>
-        <!--VRStudio-->
+        <!--Vr Video View Controller-->
         <scene sceneID="Fqf-cV-BDj">
             <objects>
                 <viewController id="cOL-vL-3PB" customClass="VrVideoViewController" customModule="magnifyapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -97,35 +100,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egG-ei-Qox">
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-AK-Cqh">
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ZG-aB-Dre" customClass="GVRVideoView">
-                                <color key="backgroundColor" red="0.92156862750000001" green="0.33333333329999998" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="c9B-Db-zaV" firstAttribute="top" secondItem="5ZG-aB-Dre" secondAttribute="bottom" constant="15" id="0Ba-f0-Rvv"/>
                             <constraint firstItem="VNe-AK-Cqh" firstAttribute="top" secondItem="SEC-fE-0Ur" secondAttribute="bottom" constant="15" id="0Kl-fj-RTV"/>
-                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="top" secondItem="egG-ei-Qox" secondAttribute="bottom" constant="15" id="Sis-id-q7h"/>
-                            <constraint firstItem="egG-ei-Qox" firstAttribute="top" secondItem="VNe-AK-Cqh" secondAttribute="bottom" constant="15" id="iNm-zF-MB8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5ZG-aB-Dre" secondAttribute="trailing" id="jDl-mT-Nc3"/>
-                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="leading" secondItem="VNe-AK-Cqh" secondAttribute="leading" id="kdd-u2-Knq"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="VNe-AK-Cqh" secondAttribute="leading" id="wZu-WY-iQh"/>
-                            <constraint firstItem="egG-ei-Qox" firstAttribute="leading" secondItem="VNe-AK-Cqh" secondAttribute="leading" id="yT8-UJ-bSf"/>
+                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="width" secondItem="JpP-kF-1Xn" secondAttribute="width" id="4Hc-zI-WuA"/>
+                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="centerX" secondItem="JpP-kF-1Xn" secondAttribute="centerX" id="AX1-qQ-9O0"/>
+                            <constraint firstItem="VNe-AK-Cqh" firstAttribute="centerX" secondItem="JpP-kF-1Xn" secondAttribute="centerX" id="HhJ-4D-WTc"/>
+                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="height" secondItem="JpP-kF-1Xn" secondAttribute="height" id="log-X2-s0F"/>
+                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="top" secondItem="VNe-AK-Cqh" secondAttribute="bottom" constant="10" id="wNc-DO-ll3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="VRStudio" id="gZW-4w-ROO"/>
+                    <navigationItem key="navigationItem" id="gZW-4w-ROO"/>
                     <connections>
-                        <outlet property="durationLabel" destination="egG-ei-Qox" id="OLA-k2-aLM"/>
                         <outlet property="titleLabel" destination="VNe-AK-Cqh" id="68X-4h-A2X"/>
                         <outlet property="videoVRView" destination="5ZG-aB-Dre" id="TWc-K8-IsL"/>
                     </connections>
@@ -137,14 +132,15 @@
         <!--TagVR-->
         <scene sceneID="yTQ-8k-Z1n">
             <objects>
-                <navigationController title="TagVR" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="xbA-zw-4Hg" sceneMemberID="viewController">
+                <navigationController title="TagVR" automaticallyAdjustsScrollViewInsets="NO" id="xbA-zw-4Hg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="q3e-fL-GBx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q3e-fL-GBx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.92156862750000001" green="0.33333333329999998" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                         </textAttributes>
@@ -165,6 +161,5 @@
     </scenes>
     <resources>
         <image name="homepage-IMG" width="1127" height="443"/>
-        <image name="tokyo-360" width="1024" height="512"/>
     </resources>
 </document>
