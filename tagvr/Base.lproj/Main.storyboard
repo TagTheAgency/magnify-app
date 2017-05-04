@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage-IMG" id="RGl-Mj-cCP">
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header" id="RGl-Mj-cCP">
                             <rect key="frame" x="0.0" y="64" width="375" height="172"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -100,22 +100,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-AK-Cqh">
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="cqH-QL-eCu"/>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ZG-aB-Dre" customClass="GVRVideoView">
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-AK-Cqh">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VNe-AK-Cqh" firstAttribute="top" secondItem="SEC-fE-0Ur" secondAttribute="bottom" constant="15" id="0Kl-fj-RTV"/>
-                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="width" secondItem="JpP-kF-1Xn" secondAttribute="width" id="4Hc-zI-WuA"/>
+                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="width" secondItem="JpP-kF-1Xn" secondAttribute="width" constant="-20" id="4Hc-zI-WuA"/>
                             <constraint firstItem="5ZG-aB-Dre" firstAttribute="centerX" secondItem="JpP-kF-1Xn" secondAttribute="centerX" id="AX1-qQ-9O0"/>
-                            <constraint firstItem="VNe-AK-Cqh" firstAttribute="centerX" secondItem="JpP-kF-1Xn" secondAttribute="centerX" id="HhJ-4D-WTc"/>
-                            <constraint firstItem="5ZG-aB-Dre" firstAttribute="height" secondItem="JpP-kF-1Xn" secondAttribute="height" id="log-X2-s0F"/>
+                            <constraint firstItem="c9B-Db-zaV" firstAttribute="top" secondItem="5ZG-aB-Dre" secondAttribute="bottom" constant="10" id="WIl-gx-nWx"/>
+                            <constraint firstItem="cqH-QL-eCu" firstAttribute="centerX" secondItem="JpP-kF-1Xn" secondAttribute="centerX" id="i9L-hY-cr0"/>
+                            <constraint firstItem="cqH-QL-eCu" firstAttribute="width" secondItem="JpP-kF-1Xn" secondAttribute="width" id="j2E-yl-T7h"/>
+                            <constraint firstItem="cqH-QL-eCu" firstAttribute="centerY" secondItem="JpP-kF-1Xn" secondAttribute="centerY" id="kej-VH-b70"/>
+                            <constraint firstItem="VNe-AK-Cqh" firstAttribute="leading" secondItem="5ZG-aB-Dre" secondAttribute="leading" id="pK8-aJ-Mgk"/>
+                            <constraint firstItem="cqH-QL-eCu" firstAttribute="height" secondItem="JpP-kF-1Xn" secondAttribute="height" id="rkv-CV-sa5"/>
                             <constraint firstItem="5ZG-aB-Dre" firstAttribute="top" secondItem="VNe-AK-Cqh" secondAttribute="bottom" constant="10" id="wNc-DO-ll3"/>
                         </constraints>
                     </view>
@@ -136,7 +141,7 @@
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q3e-fL-GBx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="q3e-fL-GBx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -160,6 +165,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="homepage-IMG" width="1127" height="443"/>
+        <image name="Header" width="1200" height="450"/>
+        <image name="background.png" width="40" height="60"/>
     </resources>
 </document>
