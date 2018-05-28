@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/iraritchiemeek/Development/Tag/Magnify App/magnifyapp.xcodeproj">
+      location = "group:Users/colin/Documents/magnify-app/magnifyapp.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

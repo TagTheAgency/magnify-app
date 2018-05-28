@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs'
 # Uncomment this line to define a global platform for your project
 platform :ios, ‘9.3’
 
-target 'tagvr' do
+target 'magnifyapp' do
 
     use_frameworks!
 
@@ -15,7 +15,7 @@ target 'tagvr' do
 
 end
 
-target 'tagvrTests' do
+target 'magnifyappTests' do
     use_frameworks!
 
     # Pods for tagvr

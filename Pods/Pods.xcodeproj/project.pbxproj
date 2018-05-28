@@ -7,99 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		248D6545508BE71296ACDD76176114E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		41C9798E7235B3460D94EC3AE3A90806 /* Pods-tagvr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A1B918C529B9272BC3D533E358BA0E /* Pods-tagvr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77817E8A416DC5F14E2E27EC33DB6FD3 /* Pods-tagvrTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5580EB7FACBA2EF36D37CF6BAF85B7B4 /* Pods-tagvrTests-dummy.m */; };
-		98694ABC96AA26BE2A660C1B801E3645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C6159CEB74195E37E6733EFE3625AF4B /* Pods-tagvrTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 305BA995BE1D8643AD6FF231B8E6E6D7 /* Pods-tagvrTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCD7076289ABE50F041F7B8E87CC6E7C /* Pods-tagvr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2946E14141685A3D62B3B8D6219031CD /* Pods-tagvr-dummy.m */; };
+		311B07FB930FDB68EA26F00F4E29B139 /* Pods-magnifyappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0CC465FAC61C0FF04B793E280AB69 /* Pods-magnifyappTests-dummy.m */; };
+		37E4AE59D8800B6B8B6FD07B4BF95174 /* Pods-magnifyappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0712B53823EDAE26DE3019A4B6613EB6 /* Pods-magnifyappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B1185858452C9084107A723E937BD1B /* Pods-magnifyapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB34EA3F4CA53B8702EE775EB46D8257 /* Pods-magnifyapp-dummy.m */; };
+		3FE37986D45A6B9C08079CCE24F94F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		89E17C2B1EA69CB81DD4128CE11CB7F0 /* Pods-magnifyapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5DF6CCADDD97ED07EFA4C1C70CB3B9 /* Pods-magnifyapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE8C27744D57F982639AC185D966653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01E19772118C8E1268D38FED48AD5E61 /* Pods-magnifyapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-magnifyapp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		039DF661FDDB4CD8FF9E352C6C4AC48D /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitHUD.bundle; path = Resources/GoogleKitHUD.bundle; sourceTree = "<group>"; };
+		0712B53823EDAE26DE3019A4B6613EB6 /* Pods-magnifyappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-magnifyappTests-umbrella.h"; sourceTree = "<group>"; };
 		0C0F0D6E51CEBD2ADFD5BE253E489001 /* GVRAudioEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRAudioEngine.h; path = Sources/GVRAudioEngine.h; sourceTree = "<group>"; };
+		0D48406337793846A7C5114D4B709FB6 /* Pods-magnifyappTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magnifyappTests-resources.sh"; sourceTree = "<group>"; };
 		0F5536784D6B5C3CE3B7C89B000B0925 /* gvr_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_audio.h; path = Sources/vr/gvr/capi/include/gvr_audio.h; sourceTree = "<group>"; };
-		18423A71259CD85A6132DCA01B29B892 /* Pods-tagvr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tagvr.modulemap"; sourceTree = "<group>"; };
-		19199B35FE983CCEA9E540C288BAB1FB /* Pods-tagvr-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tagvr-frameworks.sh"; sourceTree = "<group>"; };
+		1BF7EFFC181A03782B2CC0D6F641D1D9 /* Pods-magnifyappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magnifyappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D601A82105C6DE99FCA07D532A16F81 /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitDialogs.bundle; path = Resources/GoogleKitDialogs.bundle; sourceTree = "<group>"; };
 		20313AE426F4436ADA547BC217B60D4F /* GVRVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRVideoView.h; path = Sources/GVRVideoView.h; sourceTree = "<group>"; };
-		219E70188EFD08A4819D8C29922B3389 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2946E14141685A3D62B3B8D6219031CD /* Pods-tagvr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tagvr-dummy.m"; sourceTree = "<group>"; };
 		2D59C2D24CE4E25CD3B53BA5E5D9D88A /* GVRPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRPanoramaView.h; path = Sources/GVRPanoramaView.h; sourceTree = "<group>"; };
-		305BA995BE1D8643AD6FF231B8E6E6D7 /* Pods-tagvrTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tagvrTests-umbrella.h"; sourceTree = "<group>"; };
+		303E034129AD4CFB7690668658568EDA /* Pods-magnifyappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-magnifyappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3427B38F3375219995C871E34CE6C7DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FBB0DC5E2001D5513B48060C27A399 /* Pods-magnifyapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-magnifyapp.modulemap"; sourceTree = "<group>"; };
 		3B4E1EBFC092553C7AE94A75B797FC59 /* libCardboardSDK_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_i386.a; path = Libraries/libCardboardSDK_i386.a; sourceTree = "<group>"; };
+		41F56599565B2DD205E433A7AA95647F /* Pods-magnifyapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magnifyapp-resources.sh"; sourceTree = "<group>"; };
 		431A522D63DBC8F01F0FFB1F1763654E /* libCardboardSDK_armv7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_armv7.a; path = Libraries/libCardboardSDK_armv7.a; sourceTree = "<group>"; };
+		45AA82323F457B897932B3371F57C9D1 /* Pods-magnifyapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magnifyapp-frameworks.sh"; sourceTree = "<group>"; };
+		477DB26EF8B82C49A618AF44A7542EF6 /* Pods_magnifyapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_magnifyapp.framework; path = "Pods-magnifyapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E92BDF03815FA1BABE4BAC6066F72E /* Pods-magnifyappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magnifyappTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E74203377C66D5FC8BDF03D67A437BE /* gvr_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_types.h; path = Sources/vr/gvr/capi/include/gvr_types.h; sourceTree = "<group>"; };
-		5580EB7FACBA2EF36D37CF6BAF85B7B4 /* Pods-tagvrTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tagvrTests-dummy.m"; sourceTree = "<group>"; };
 		595326396E65BAD10AE526F50CEB7BD2 /* GVRCardboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRCardboardView.h; path = Sources/GVRCardboardView.h; sourceTree = "<group>"; };
-		60A1B918C529B9272BC3D533E358BA0E /* Pods-tagvr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tagvr-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		62DE846A513FA6D42DF148FC45910AB8 /* GVROverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVROverlayView.h; path = Sources/GVROverlayView.h; sourceTree = "<group>"; };
-		65AB65BFFA0BB8024C13C5F65E5F1768 /* Pods_tagvr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723FD71DC3A069C4329A8823C9F91979 /* Pods-magnifyapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magnifyapp.release.xcconfig"; sourceTree = "<group>"; };
 		798330494E6B1AA5B24C7E0EEF1358D0 /* gvr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr.h; path = Sources/vr/gvr/capi/include/gvr.h; sourceTree = "<group>"; };
-		7AFEA32ED15598AD2F16C790CE53459E /* Pods-tagvr-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tagvr-resources.sh"; sourceTree = "<group>"; };
-		7DE84DCD8887B3046A85707CA44DC039 /* Pods-tagvrTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tagvrTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8434728BEFA9D1931C6CFBE03B972247 /* gvr_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_version.h; path = Sources/vr/gvr/capi/include/gvr_version.h; sourceTree = "<group>"; };
+		85FAA92A6531C0B0A2163F557E6E4B33 /* Pods-magnifyappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-magnifyappTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		864E6B19A838C3C3F334E6A824ACD798 /* libCardboardSDK_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_arm64.a; path = Libraries/libCardboardSDK_arm64.a; sourceTree = "<group>"; };
-		8A013569188E26C430B7E2C0ED62864C /* Pods_tagvrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tagvrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86B89C37AB0656FF051F5FFC44CD1BDF /* Pods-magnifyappTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magnifyappTests-frameworks.sh"; sourceTree = "<group>"; };
+		8DA6228B82227BE8FBE62EB216E8C595 /* Pods-magnifyappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-magnifyappTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B678D77B2CB610D8A820FE32B6E0FF /* Pods-magnifyapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magnifyapp.debug.xcconfig"; sourceTree = "<group>"; };
 		971FEDE16C52EF6858ADA9144488D38D /* GVRWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRWidgetView.h; path = Sources/GVRWidgetView.h; sourceTree = "<group>"; };
-		AA2C3858594E6480B97DB3EC4811FD94 /* Pods-tagvrTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tagvrTests-frameworks.sh"; sourceTree = "<group>"; };
-		AA6DFC044F10D3E0586C2F6486745D50 /* Pods-tagvrTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tagvrTests.modulemap"; sourceTree = "<group>"; };
+		A5D0CC465FAC61C0FF04B793E280AB69 /* Pods-magnifyappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-magnifyappTests-dummy.m"; sourceTree = "<group>"; };
+		AB34EA3F4CA53B8702EE775EB46D8257 /* Pods-magnifyapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-magnifyapp-dummy.m"; sourceTree = "<group>"; };
+		AB5DF6CCADDD97ED07EFA4C1C70CB3B9 /* Pods-magnifyapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-magnifyapp-umbrella.h"; sourceTree = "<group>"; };
 		ABD3B74625B310CFB974DCB822156EA0 /* libCardboardSDK_x86_64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_x86_64.a; path = Libraries/libCardboardSDK_x86_64.a; sourceTree = "<group>"; };
-		AEB970B355135B575E7F06A7172951BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B88889961F47DBBBC0975F57E285CAB6 /* Pods-tagvr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tagvr.debug.xcconfig"; sourceTree = "<group>"; };
-		BB6405EB457DAACE60CBFDCBA7C9299F /* Pods-tagvrTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tagvrTests-resources.sh"; sourceTree = "<group>"; };
-		BFDACD19C487DB04431041A0011EB66B /* Pods-tagvr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tagvr-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C33376B111DBED0F1CD2347189C5408E /* Pods-tagvr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tagvr.release.xcconfig"; sourceTree = "<group>"; };
+		B8D38047B3C406FB72BD00FE5B914B19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C88126943637C9B522C4F173493F78D2 /* CardboardSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CardboardSDK.bundle; path = Resources/CardboardSDK.bundle; sourceTree = "<group>"; };
-		CAA836072EDC6D94BF0BDE0AB341188A /* Pods-tagvrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tagvrTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D04C85D64769A6CCCF637F6467D4250D /* Pods-tagvr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tagvr-acknowledgements.plist"; sourceTree = "<group>"; };
-		D7B41B6CF478ABC025C3C85438F4D6A2 /* Pods-tagvrTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tagvrTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D909CAB21EBA73C08E50BD12D664020C /* MaterialRobotoFontLoader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialRobotoFontLoader.bundle; path = Resources/MaterialRobotoFontLoader.bundle; sourceTree = "<group>"; };
 		DEDDBBBEA0827226BAD22B70DDEC35D5 /* GVRHeadTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRHeadTransform.h; path = Sources/GVRHeadTransform.h; sourceTree = "<group>"; };
+		EFFD379C31366D527B46077490E687D5 /* Pods-magnifyapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-magnifyapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		F29B7CE4B6102CB5AC191636BF0CD223 /* Pods_magnifyappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_magnifyappTests.framework; path = "Pods-magnifyappTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4AB5CC8F147287FCE4CDFC85B45FEB /* GoogleKitCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitCore.bundle; path = Resources/GoogleKitCore.bundle; sourceTree = "<group>"; };
-		FF0324D9241AEABF829EE908EDB63592 /* Pods-tagvrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tagvrTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66A02637ED891FAD2C76D4F212EF16AC /* Frameworks */ = {
+		6FEBBEA1134EA1D3462303815E184BA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98694ABC96AA26BE2A660C1B801E3645 /* Foundation.framework in Frameworks */,
+				3FE37986D45A6B9C08079CCE24F94F49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBCBB56C2C73E742614DF8BE7E69C243 /* Frameworks */ = {
+		804E5F207C41E049EBD72371E205F0D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248D6545508BE71296ACDD76176114E9 /* Foundation.framework in Frameworks */,
+				AFE8C27744D57F982639AC185D966653 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C53B47113FF2D83A8EC1A7199F400B3 /* Pods-tagvr */ = {
-			isa = PBXGroup;
-			children = (
-				AEB970B355135B575E7F06A7172951BD /* Info.plist */,
-				18423A71259CD85A6132DCA01B29B892 /* Pods-tagvr.modulemap */,
-				BFDACD19C487DB04431041A0011EB66B /* Pods-tagvr-acknowledgements.markdown */,
-				D04C85D64769A6CCCF637F6467D4250D /* Pods-tagvr-acknowledgements.plist */,
-				2946E14141685A3D62B3B8D6219031CD /* Pods-tagvr-dummy.m */,
-				19199B35FE983CCEA9E540C288BAB1FB /* Pods-tagvr-frameworks.sh */,
-				7AFEA32ED15598AD2F16C790CE53459E /* Pods-tagvr-resources.sh */,
-				60A1B918C529B9272BC3D533E358BA0E /* Pods-tagvr-umbrella.h */,
-				B88889961F47DBBBC0975F57E285CAB6 /* Pods-tagvr.debug.xcconfig */,
-				C33376B111DBED0F1CD2347189C5408E /* Pods-tagvr.release.xcconfig */,
-			);
-			name = "Pods-tagvr";
-			path = "Target Support Files/Pods-tagvr";
-			sourceTree = "<group>";
-		};
 		38FE176FD86A9776551F68FBC287C8C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,39 +93,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		589C631F465383520F692C342DB2C331 /* Pods-magnifyappTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				B8D38047B3C406FB72BD00FE5B914B19 /* Info.plist */,
+				8DA6228B82227BE8FBE62EB216E8C595 /* Pods-magnifyappTests.modulemap */,
+				303E034129AD4CFB7690668658568EDA /* Pods-magnifyappTests-acknowledgements.markdown */,
+				85FAA92A6531C0B0A2163F557E6E4B33 /* Pods-magnifyappTests-acknowledgements.plist */,
+				A5D0CC465FAC61C0FF04B793E280AB69 /* Pods-magnifyappTests-dummy.m */,
+				86B89C37AB0656FF051F5FFC44CD1BDF /* Pods-magnifyappTests-frameworks.sh */,
+				0D48406337793846A7C5114D4B709FB6 /* Pods-magnifyappTests-resources.sh */,
+				0712B53823EDAE26DE3019A4B6613EB6 /* Pods-magnifyappTests-umbrella.h */,
+				1BF7EFFC181A03782B2CC0D6F641D1D9 /* Pods-magnifyappTests.debug.xcconfig */,
+				48E92BDF03815FA1BABE4BAC6066F72E /* Pods-magnifyappTests.release.xcconfig */,
+			);
+			name = "Pods-magnifyappTests";
+			path = "Target Support Files/Pods-magnifyappTests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5154C1F7ED7A5AD04EFD8FC4382095C9 /* Products */ = {
+		62B6702C76C35E2F333E226F63153D4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65AB65BFFA0BB8024C13C5F65E5F1768 /* Pods_tagvr.framework */,
-				8A013569188E26C430B7E2C0ED62864C /* Pods_tagvrTests.framework */,
+				477DB26EF8B82C49A618AF44A7542EF6 /* Pods_magnifyapp.framework */,
+				F29B7CE4B6102CB5AC191636BF0CD223 /* Pods_magnifyappTests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		57060CBE3C2F7525C94EB8EBE24E9F45 /* Pods-tagvrTests */ = {
-			isa = PBXGroup;
-			children = (
-				219E70188EFD08A4819D8C29922B3389 /* Info.plist */,
-				AA6DFC044F10D3E0586C2F6486745D50 /* Pods-tagvrTests.modulemap */,
-				7DE84DCD8887B3046A85707CA44DC039 /* Pods-tagvrTests-acknowledgements.markdown */,
-				D7B41B6CF478ABC025C3C85438F4D6A2 /* Pods-tagvrTests-acknowledgements.plist */,
-				5580EB7FACBA2EF36D37CF6BAF85B7B4 /* Pods-tagvrTests-dummy.m */,
-				AA2C3858594E6480B97DB3EC4811FD94 /* Pods-tagvrTests-frameworks.sh */,
-				BB6405EB457DAACE60CBFDCBA7C9299F /* Pods-tagvrTests-resources.sh */,
-				305BA995BE1D8643AD6FF231B8E6E6D7 /* Pods-tagvrTests-umbrella.h */,
-				CAA836072EDC6D94BF0BDE0AB341188A /* Pods-tagvrTests.debug.xcconfig */,
-				FF0324D9241AEABF829EE908EDB63592 /* Pods-tagvrTests.release.xcconfig */,
-			);
-			name = "Pods-tagvrTests";
-			path = "Target Support Files/Pods-tagvrTests";
 			sourceTree = "<group>";
 		};
 		781F671572B5715FC9D6379F7D4B30D0 /* Resources */ = {
@@ -164,24 +146,33 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F05351E3E640B64052A7087B9D887540 /* Pods */,
-				5154C1F7ED7A5AD04EFD8FC4382095C9 /* Products */,
-				B5BC950A3DE389F0FFC696045D73B772 /* Targets Support Files */,
+				62B6702C76C35E2F333E226F63153D4D /* Products */,
+				FBF525BA05C1EB229EF636D94FDABC12 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B5BC950A3DE389F0FFC696045D73B772 /* Targets Support Files */ = {
+		9F3FBC4EFEB4F2B3F5FA8D647C61C0BA /* Pods-magnifyapp */ = {
 			isa = PBXGroup;
 			children = (
-				0C53B47113FF2D83A8EC1A7199F400B3 /* Pods-tagvr */,
-				57060CBE3C2F7525C94EB8EBE24E9F45 /* Pods-tagvrTests */,
+				3427B38F3375219995C871E34CE6C7DE /* Info.plist */,
+				35FBB0DC5E2001D5513B48060C27A399 /* Pods-magnifyapp.modulemap */,
+				01E19772118C8E1268D38FED48AD5E61 /* Pods-magnifyapp-acknowledgements.markdown */,
+				EFFD379C31366D527B46077490E687D5 /* Pods-magnifyapp-acknowledgements.plist */,
+				AB34EA3F4CA53B8702EE775EB46D8257 /* Pods-magnifyapp-dummy.m */,
+				45AA82323F457B897932B3371F57C9D1 /* Pods-magnifyapp-frameworks.sh */,
+				41F56599565B2DD205E433A7AA95647F /* Pods-magnifyapp-resources.sh */,
+				AB5DF6CCADDD97ED07EFA4C1C70CB3B9 /* Pods-magnifyapp-umbrella.h */,
+				94B678D77B2CB610D8A820FE32B6E0FF /* Pods-magnifyapp.debug.xcconfig */,
+				723FD71DC3A069C4329A8823C9F91979 /* Pods-magnifyapp.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-magnifyapp";
+			path = "Target Support Files/Pods-magnifyapp";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,6 +194,7 @@
 				38FE176FD86A9776551F68FBC287C8C2 /* Frameworks */,
 				781F671572B5715FC9D6379F7D4B30D0 /* Resources */,
 			);
+			name = GVRSDK;
 			path = GVRSDK;
 			sourceTree = "<group>";
 		};
@@ -214,60 +206,69 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FBF525BA05C1EB229EF636D94FDABC12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F3FBC4EFEB4F2B3F5FA8D647C61C0BA /* Pods-magnifyapp */,
+				589C631F465383520F692C342DB2C331 /* Pods-magnifyappTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A68A7E91E3F8572062633AE132C5AE48 /* Headers */ = {
+		9041A47524CDD35503C1DB172C4BA137 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C9798E7235B3460D94EC3AE3A90806 /* Pods-tagvr-umbrella.h in Headers */,
+				89E17C2B1EA69CB81DD4128CE11CB7F0 /* Pods-magnifyapp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7B64846363E159B3AD741BB9DDA0504 /* Headers */ = {
+		A2FB4F512B21BE90B325AB92E4E8A427 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6159CEB74195E37E6733EFE3625AF4B /* Pods-tagvrTests-umbrella.h in Headers */,
+				37E4AE59D8800B6B8B6FD07B4BF95174 /* Pods-magnifyappTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		933BC500AE889E683EF48BF9D8232A90 /* Pods-tagvr */ = {
+		8A3B75CAFB94CE626908D58613FB5201 /* Pods-magnifyapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A0AFA7A80A36A58553B3C0AADB82E46 /* Build configuration list for PBXNativeTarget "Pods-tagvr" */;
+			buildConfigurationList = 96FC77A8A3C3C48B409132FC46846C36 /* Build configuration list for PBXNativeTarget "Pods-magnifyapp" */;
 			buildPhases = (
-				EA36A66871DBBAC73D21DCD0D509D3AE /* Sources */,
-				BBCBB56C2C73E742614DF8BE7E69C243 /* Frameworks */,
-				A68A7E91E3F8572062633AE132C5AE48 /* Headers */,
+				413A5C3DA254C16DDC450C582777E4DB /* Sources */,
+				6FEBBEA1134EA1D3462303815E184BA0 /* Frameworks */,
+				9041A47524CDD35503C1DB172C4BA137 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-tagvr";
-			productName = "Pods-tagvr";
-			productReference = 65AB65BFFA0BB8024C13C5F65E5F1768 /* Pods_tagvr.framework */;
+			name = "Pods-magnifyapp";
+			productName = "Pods-magnifyapp";
+			productReference = 477DB26EF8B82C49A618AF44A7542EF6 /* Pods_magnifyapp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A8A5344891EA4B17D071985351E52CA0 /* Pods-tagvrTests */ = {
+		A6D0BE301DD445EA0603BC796ABA9D30 /* Pods-magnifyappTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4802AD788CCFDF273073F5DB9D25E99 /* Build configuration list for PBXNativeTarget "Pods-tagvrTests" */;
+			buildConfigurationList = 47A5D06C1DDE98D02867CF922373846E /* Build configuration list for PBXNativeTarget "Pods-magnifyappTests" */;
 			buildPhases = (
-				6914B718A3EE9666499F41FCAEA0B450 /* Sources */,
-				66A02637ED891FAD2C76D4F212EF16AC /* Frameworks */,
-				C7B64846363E159B3AD741BB9DDA0504 /* Headers */,
+				DABCAB75AAFD371083F43ECB4165E1AB /* Sources */,
+				804E5F207C41E049EBD72371E205F0D2 /* Frameworks */,
+				A2FB4F512B21BE90B325AB92E4E8A427 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-tagvrTests";
-			productName = "Pods-tagvrTests";
-			productReference = 8A013569188E26C430B7E2C0ED62864C /* Pods_tagvrTests.framework */;
+			name = "Pods-magnifyappTests";
+			productName = "Pods-magnifyappTests";
+			productReference = F29B7CE4B6102CB5AC191636BF0CD223 /* Pods_magnifyappTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +277,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -287,51 +288,155 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5154C1F7ED7A5AD04EFD8FC4382095C9 /* Products */;
+			productRefGroup = 62B6702C76C35E2F333E226F63153D4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				933BC500AE889E683EF48BF9D8232A90 /* Pods-tagvr */,
-				A8A5344891EA4B17D071985351E52CA0 /* Pods-tagvrTests */,
+				8A3B75CAFB94CE626908D58613FB5201 /* Pods-magnifyapp */,
+				A6D0BE301DD445EA0603BC796ABA9D30 /* Pods-magnifyappTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6914B718A3EE9666499F41FCAEA0B450 /* Sources */ = {
+		413A5C3DA254C16DDC450C582777E4DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77817E8A416DC5F14E2E27EC33DB6FD3 /* Pods-tagvrTests-dummy.m in Sources */,
+				3B1185858452C9084107A723E937BD1B /* Pods-magnifyapp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA36A66871DBBAC73D21DCD0D509D3AE /* Sources */ = {
+		DABCAB75AAFD371083F43ECB4165E1AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD7076289ABE50F041F7B8E87CC6E7C /* Pods-tagvr-dummy.m in Sources */,
+				311B07FB930FDB68EA26F00F4E29B139 /* Pods-magnifyappTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+		4D52ED7FB3FDD882E03E5694C5FD5342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723FD71DC3A069C4329A8823C9F91979 /* Pods-magnifyapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magnifyapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magnifyapp/Pods-magnifyapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5834982FBDFCEE6B19E128329272E812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B678D77B2CB610D8A820FE32B6E0FF /* Pods-magnifyapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magnifyapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magnifyapp/Pods-magnifyapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86D792E75B4C779A1C842B9EC369FCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E92BDF03815FA1BABE4BAC6066F72E /* Pods-magnifyappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magnifyappTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magnifyappTests/Pods-magnifyappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -339,17 +444,20 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -358,48 +466,47 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4F9E2240A13AAAE9D12BBB99029DDBDD /* Debug */ = {
+		8BC0787F48DE96EFBDD4FB6533F4C06D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88889961F47DBBBC0975F57E285CAB6 /* Pods-tagvr.debug.xcconfig */;
+			baseConfigurationReference = 1BF7EFFC181A03782B2CC0D6F641D1D9 /* Pods-magnifyappTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-tagvr/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-magnifyappTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tagvr/Pods-tagvr.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-magnifyappTests/Pods-magnifyappTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tagvr;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,21 +515,24 @@
 			};
 			name = Debug;
 		};
-		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -430,140 +540,38 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		9523226654504CFF85177FF7705B43EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF0324D9241AEABF829EE908EDB63592 /* Pods-tagvrTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-tagvrTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tagvrTests/Pods-tagvrTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tagvrTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3356C27A214226F251EA5D3B08D681A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C33376B111DBED0F1CD2347189C5408E /* Pods-tagvr.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-tagvr/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tagvr/Pods-tagvr.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tagvr;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F954A3056A063F0190B5BB322EF7BDBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA836072EDC6D94BF0BDE0AB341188A /* Pods-tagvrTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-tagvrTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tagvrTests/Pods-tagvrTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tagvrTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -571,26 +579,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
-				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A0AFA7A80A36A58553B3C0AADB82E46 /* Build configuration list for PBXNativeTarget "Pods-tagvr" */ = {
+		47A5D06C1DDE98D02867CF922373846E /* Build configuration list for PBXNativeTarget "Pods-magnifyappTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9E2240A13AAAE9D12BBB99029DDBDD /* Debug */,
-				B3356C27A214226F251EA5D3B08D681A /* Release */,
+				8BC0787F48DE96EFBDD4FB6533F4C06D /* Debug */,
+				86D792E75B4C779A1C842B9EC369FCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4802AD788CCFDF273073F5DB9D25E99 /* Build configuration list for PBXNativeTarget "Pods-tagvrTests" */ = {
+		96FC77A8A3C3C48B409132FC46846C36 /* Build configuration list for PBXNativeTarget "Pods-magnifyapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F954A3056A063F0190B5BB322EF7BDBF /* Debug */,
-				9523226654504CFF85177FF7705B43EB /* Release */,
+				5834982FBDFCEE6B19E128329272E812 /* Debug */,
+				4D52ED7FB3FDD882E03E5694C5FD5342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

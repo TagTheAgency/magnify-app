@@ -34,7 +34,7 @@ class VRVideoTableViewController: UITableViewController {
         do {
             let allContactsData = try Data(contentsOf: url!)
             let allContacts = try JSONSerialization.jsonObject(with: allContactsData, options: JSONSerialization.ReadingOptions.allowFragments) as! [String : AnyObject]
-            if let arrJSON = allContacts["videos"] {
+            if let arrJSON = allContacts["videos"] as? [[String: Any]]{
                 for index in 0...arrJSON.count-1 {
                     
                     let aObject = arrJSON[index] as! [String : AnyObject]
