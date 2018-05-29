@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B56C41A20BBA2D300B783E2 /* magnifyLoadingBg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B56C41920BBA2D300B783E2 /* magnifyLoadingBg.jpeg */; };
 		2549B79E1DAC5F800033762C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2549B79D1DAC5F800033762C /* MessageUI.framework */; };
 		5229E50F1EB6814B00B8BA05 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229E50E1EB6814B00B8BA05 /* UIImageExtension.swift */; };
 		525718A81D6A73EA007D744C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525718A71D6A73EA007D744C /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 		52C8A7F91DA1FB08001759F5 /* VRVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7F81DA1FB08001759F5 /* VRVideoTableViewCell.swift */; };
 		52C8A7FB1DA1FEFA001759F5 /* VRVideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */; };
 		52C8A8001DA30264001759F5 /* VRVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8A7FF1DA30264001759F5 /* VRVideo.swift */; };
+		9052F179FC2C1ACFBD6ABA44 /* Pods_magnifyappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14081647F359DA38EB0DB88F /* Pods_magnifyappTests.framework */; };
 		F4832AC3A9949B801343D64B /* Pods_magnifyapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D3DEE225FE395203AC9688 /* Pods_magnifyapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B56C41920BBA2D300B783E2 /* magnifyLoadingBg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = magnifyLoadingBg.jpeg; path = Assets.xcassets/magnifyLoadingBg.jpeg; sourceTree = "<group>"; };
+		14081647F359DA38EB0DB88F /* Pods_magnifyappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magnifyappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C6822155F98C45D0D1B87D /* Pods-magnifyappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magnifyappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-magnifyappTests/Pods-magnifyappTests.release.xcconfig"; sourceTree = "<group>"; };
 		2549B79D1DAC5F800033762C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		52226C891DA6F1E2003C2AAD /* tagvr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tagvr-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2549B79E1DAC5F800033762C /* MessageUI.framework in Frameworks */,
+				9052F179FC2C1ACFBD6ABA44 /* Pods_magnifyappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +136,7 @@
 				52C8A7FA1DA1FEFA001759F5 /* VRVideoTableViewController.swift */,
 				52C8A7FF1DA30264001759F5 /* VRVideo.swift */,
 				525718AE1D6A73EA007D744C /* Assets.xcassets */,
+				0B56C41920BBA2D300B783E2 /* magnifyLoadingBg.jpeg */,
 				525718B01D6A73EA007D744C /* LaunchScreen.storyboard */,
 				525718B31D6A73EA007D744C /* Info.plist */,
 			);
@@ -161,6 +167,7 @@
 				2549B79D1DAC5F800033762C /* MessageUI.framework */,
 				52D5B0EB1DA5F67800D6D4C9 /* libCardboardSDK_i386.a */,
 				78D3DEE225FE395203AC9688 /* Pods_magnifyapp.framework */,
+				14081647F359DA38EB0DB88F /* Pods_magnifyappTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -291,6 +298,7 @@
 				525718B21D6A73EA007D744C /* LaunchScreen.storyboard in Resources */,
 				525718AF1D6A73EA007D744C /* Assets.xcassets in Resources */,
 				525718AD1D6A73EA007D744C /* Main.storyboard in Resources */,
+				0B56C41A20BBA2D300B783E2 /* magnifyLoadingBg.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
