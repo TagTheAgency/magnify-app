@@ -100,7 +100,6 @@ class VRVideoTableViewController: UITableViewController {
         cell.coverImageOverlay.layer.cornerRadius = 8.0
         cell.coverImageView.downloadedFrom(link: vrVideo.photo)
         cell.coverTitle.text = vrVideo.company
-        cell.logoImageView.downloadedFrom(link: vrVideo.logo)
         
         return cell
     }
