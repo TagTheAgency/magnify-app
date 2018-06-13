@@ -13,20 +13,12 @@ class VRVideoTableViewController: UITableViewController {
     
     var vrVideos = [VRVideo]()
     
+    @IBOutlet weak var headerImage: UIImageView!
+    
     func loadSampleVideos() {
-        //let photo1 = UIImage(named: "image1")!
-        //let video1 = VRVideo(photo: photo1, title: "Soaring with Orcas", duration: "2:52", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
-        //
-        //let photo2 = UIImage(named: "image2")!
-        //let video2 = VRVideo(photo: photo2, title: "Road Trip New Zealand", duration: "1:29", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
-        //
-        //let photo3 = UIImage(named: "image3")!
-        //let video3 = VRVideo(photo: photo3, title: "Aventador Test", duration: "3:12", video: "https://s3.amazonaws.com/ray.wenderlich/elephant_safari.mp4")!
         
         getJSON(urlToRequest: "https://1819948887.rsc.cdn77.org/magnify.json")
         
-        //vrVideos += [video1, video2, video3]
-
     }
     
     func getJSON(urlToRequest:String) {
@@ -67,11 +59,13 @@ class VRVideoTableViewController: UITableViewController {
         
         loadSampleVideos()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(VRVideoTableViewController.imageTapped(gesture:)))
+        
+        // add it to the image view;
+        headerImage.addGestureRecognizer(tapGesture)
+        // make sure imageView can be interacted with by user
+        headerImage.isUserInteractionEnabled = true
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,41 +97,18 @@ class VRVideoTableViewController: UITableViewController {
         
         return cell
     }
- 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    func imageTapped(gesture: UIGestureRecognizer) {
+        // if the tapped view is a UIImageView then set it to imageview
+        if (gesture.view as? UIImageView) != nil {
+            
+            guard let url = URL(string: "https://gaze.tagtheagency.com/") else {
+                return //be safe
+            }
+            UIApplication.shared.openURL(url)
+            
+        }
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
 
     // MARK: - Navigation
 
